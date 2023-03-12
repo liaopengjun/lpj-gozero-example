@@ -1,0 +1,20 @@
+Name: user-api
+Host: 0.0.0.0
+Port: 8881
+Mysql:
+  DataSource: root:root@tcp(127.0.0.1)/go-zero-demo?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+CacheRedis:
+  - Host: 127.0.0.1:6379
+    Pass:
+    Type: node
+Auth:
+  AccessSecret: f79e5243-7349-c3b7-5a0c-bd3b49b42637
+  AccessExpire: 7200
+Log:
+  ServiceName: user-api
+  Mode: file #输入到文件 默认console
+  Encoding: json #默认json plain纯文本
+  Path: logs #日志路径 默认logs
+  Level: error #日志级别是error 会忽略info日志 默认info
+  Compress: true #压缩日志文件
+  KeepDays: 7 #保留日志时间

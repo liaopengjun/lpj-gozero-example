@@ -1,0 +1,94 @@
+2023-03-12T21:58:02.778+08:00	[31;1m error [0m	失败日志	caller=logic/loginlogic.go:35
+2023-03-12T22:10:23.170+08:00	[31;1m error [0m	 log failed: 这是一个日志错误	caller=logic/logerrlogic.go:30
+2023-03-12T22:15:02.951+08:00	[31;1m error [0m	listen tcp 0.0.0.0:8881: bind: address already in use	caller=rest/server.go:304
+2023-03-12T22:15:36.824+08:00	[31;1m error [0m	log err : %v 
+ log failed: 这是一个日志错误	caller=logic/logerrlogic.go:30
+2023-03-12T22:15:37.503+08:00	[31;1m error [0m	log err : %v 
+ log failed: 这是一个日志错误	caller=logic/logerrlogic.go:30
+2023-03-12T22:15:37.844+08:00	[31;1m error [0m	log err : %v 
+ log failed: 这是一个日志错误	caller=logic/logerrlogic.go:30
+2023-03-12T22:16:36.718+08:00	[31;1m error [0m	log err : %v 
+ log failed: 这是一个日志错误	caller=logic/logerrlogic.go:30
+{"@timestamp":"2023-03-12T22:22:53.698+08:00","caller":"logic/logerrlogic.go:27","content":"日志错误开始","level":"error"}
+{"@timestamp":"2023-03-12T22:22:53.699+08:00","caller":"logic/logerrlogic.go:29","content":"err: log failed: 这是一个日志错误 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:22:53.699+08:00","caller":"logic/logerrlogic.go:31","content":"日志错误结束","level":"error"}
+{"@timestamp":"2023-03-12T22:22:57.754+08:00","caller":"logic/logerrlogic.go:27","content":"日志错误开始","level":"error"}
+{"@timestamp":"2023-03-12T22:22:57.754+08:00","caller":"logic/logerrlogic.go:29","content":"err: log failed: 这是一个日志错误 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:22:57.754+08:00","caller":"logic/logerrlogic.go:31","content":"日志错误结束","level":"error"}
+{"@timestamp":"2023-03-12T22:24:11.904+08:00","caller":"logic/logerrlogic.go:27","content":"日志错误开始","level":"error"}
+{"@timestamp":"2023-03-12T22:24:11.904+08:00","caller":"logic/logerrlogic.go:29","content":"err: log failed: 这是一个日志错误 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:24:11.904+08:00","caller":"logic/logerrlogic.go:31","content":"日志错误结束","level":"error"}
+{"@timestamp":"2023-03-12T22:25:28.584+08:00","caller":"logic/logerrlogic.go:28","content":"err: log failed: 这是一个日志错误 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:25:29.622+08:00","caller":"logic/logerrlogic.go:28","content":"err: log failed: 这是一个日志错误 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:25:30.011+08:00","caller":"logic/logerrlogic.go:28","content":"err: log failed: 这是一个日志错误 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:25:30.645+08:00","caller":"logic/logerrlogic.go:28","content":"err: log failed: 这是一个日志错误 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:27:25.056+08:00","caller":"logic/logerrlogic.go:28","content":"err: log failed: 这是一个日志错误 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:42:20.277+08:00","caller":"logic/logerrlogic.go:28","content":"err:这是一个日志错误\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog3\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:42\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog2\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:38\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:34\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).Logerr\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:27\ngo-zero-demo/user-api/api/internal/handler.logerrHandler.func1\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/handler/logerrhandler.go:14\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.GunzipHandler.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/gunziphandler.go:26\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.MaxBytesHandler.func2.1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/maxbyteshandler.go:24\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.MetricHandler.func1.1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/metrichandler.go:21\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.RecoverHandler.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/recoverhandler.go:21\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.(*timeoutHandler).ServeHTTP.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/timeouthandler.go:81\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_arm64.s:1263\n log failed\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog3\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:42\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog2\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:38\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:34\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).Logerr\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:27\ngo-zero-demo/user-api/api/internal/handler.logerrHandler.func1\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/handler/logerrhandler.go:14\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.GunzipHandler.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/gunziphandler.go:26\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.MaxBytesHandler.func2.1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/maxbyteshandler.go:24\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.MetricHandler.func1.1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/metrichandler.go:21\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.RecoverHandler.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/recoverhandler.go:21\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.(*timeoutHandler).ServeHTTP.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/timeouthandler.go:81\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_arm64.s:1263 \n","level":"error"}
+{"@timestamp":"2023-03-12T22:42:20.633+08:00","caller":"logic/logerrlogic.go:28","content":"err:这是一个日志错误\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog3\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:42\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog2\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:38\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:34\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).Logerr\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:27\ngo-zero-demo/user-api/api/internal/handler.logerrHandler.func1\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/handler/logerrhandler.go:14\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.GunzipHandler.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/gunziphandler.go:26\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.MaxBytesHandler.func2.1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/maxbyteshandler.go:24\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.MetricHandler.func1.1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/metrichandler.go:21\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.RecoverHandler.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/recoverhandler.go:21\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.(*timeoutHandler).ServeHTTP.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/timeouthandler.go:81\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_arm64.s:1263\n log failed\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog3\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:42\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog2\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:38\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:34\ngo-zero-demo/user-api/api/internal/logic.(*LogerrLogic).Logerr\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:27\ngo-zero-demo/user-api/api/internal/handler.logerrHandler.func1\n\t/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/handler/logerrhandler.go:14\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.GunzipHandler.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/gunziphandler.go:26\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.MaxBytesHandler.func2.1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/maxbyteshandler.go:24\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.MetricHandler.func1.1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/metrichandler.go:21\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.RecoverHandler.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/recoverhandler.go:21\nnet/http.HandlerFunc.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2084\ngithub.com/zeromicro/go-zero/rest/handler.(*timeoutHandler).ServeHTTP.func1\n\t/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/timeouthandler.go:81\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_arm64.s:1263 \n","level":"error"}
+2023-03-12T22:42:55.391+08:00	[31;1m error [0m	err:这是一个日志错误
+go-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog3
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:42
+go-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog2
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:38
+go-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:34
+go-zero-demo/user-api/api/internal/logic.(*LogerrLogic).Logerr
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:27
+go-zero-demo/user-api/api/internal/handler.logerrHandler.func1
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/handler/logerrhandler.go:14
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.GunzipHandler.func1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/gunziphandler.go:26
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.MaxBytesHandler.func2.1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/maxbyteshandler.go:24
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.MetricHandler.func1.1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/metrichandler.go:21
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.RecoverHandler.func1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/recoverhandler.go:21
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.(*timeoutHandler).ServeHTTP.func1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/timeouthandler.go:81
+runtime.goexit
+	/usr/local/go/src/runtime/asm_arm64.s:1263
+ log failed
+go-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog3
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:42
+go-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog2
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:38
+go-zero-demo/user-api/api/internal/logic.(*LogerrLogic).printLog
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:34
+go-zero-demo/user-api/api/internal/logic.(*LogerrLogic).Logerr
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/logic/logerrlogic.go:27
+go-zero-demo/user-api/api/internal/handler.logerrHandler.func1
+	/Users/liaopengjun/Code/go/src/go-zero-demo/user-api/api/internal/handler/logerrhandler.go:14
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.GunzipHandler.func1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/gunziphandler.go:26
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.MaxBytesHandler.func2.1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/maxbyteshandler.go:24
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.MetricHandler.func1.1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/metrichandler.go:21
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.RecoverHandler.func1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/recoverhandler.go:21
+net/http.HandlerFunc.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2084
+github.com/zeromicro/go-zero/rest/handler.(*timeoutHandler).ServeHTTP.func1
+	/Users/liaopengjun/Code/go/pkg/mod/github.com/zeromicro/go-zero@v1.5.0/rest/handler/timeouthandler.go:81
+runtime.goexit
+	/usr/local/go/src/runtime/asm_arm64.s:1263 
+	caller=logic/logerrlogic.go:28
