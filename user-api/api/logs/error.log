@@ -92,3 +92,14 @@ github.com/zeromicro/go-zero/rest/handler.(*timeoutHandler).ServeHTTP.func1
 runtime.goexit
 	/usr/local/go/src/runtime/asm_arm64.s:1263 
 	caller=logic/logerrlogic.go:28
+{"@timestamp":"2023-04-15T14:54:42.546+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T14:54:42.546+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+{"@timestamp":"2023-04-15T14:54:44.275+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T14:54:44.275+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+{"@timestamp":"2023-04-15T15:08:59.150+08:00","caller":"rest/server.go:304","content":"listen tcp 0.0.0.0:8881: bind: address already in use","level":"error"}
+{"@timestamp":"2023-04-15T15:09:35.396+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T15:09:35.396+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+{"@timestamp":"2023-04-15T15:09:52.244+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T15:09:52.244+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+{"@timestamp":"2023-04-15T15:10:49.640+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T15:10:49.640+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}

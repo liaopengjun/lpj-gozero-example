@@ -26,6 +26,7 @@ func (l *LogerrLogic) Logerr() error {
 	// todo: add your logic here and delete this line
 	if err := l.printLog(); err != nil {
 		logx.Errorf("err:%+v \n", err)
+
 	}
 	return nil
 }

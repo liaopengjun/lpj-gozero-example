@@ -2,8 +2,13 @@
 package types
 
 type LoginReq struct {
-	Username string `json:"username"`
-	Password string `json:"password"`
+	Username           string `json:"username" validate:"required,contains=lpj"`
+	Password           string `json:"password" validate:"required"`
+	Email              string `json:"email" validate:"email"`
+	IsRememberPassword string `json:"is_remember_password" validate:"required,oneof=0 1 2"`
+	LtNumber           string `json:"lt_number" validate:"required,lt=3,numeric"`
+	GtNumber           int    `json:"gt_number" validate:"required,gt=5"`
+	CustomFun          string `json:"customFun" validate:"required,CustomValidateFun"`
 }
 
 type LoginReply struct {

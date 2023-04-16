@@ -30,23 +30,19 @@ func NewLoginLogic(ctx context.Context, svcCtx *svc.ServiceContext) *LoginLogic 
 //  Login 登陆
 func (l *LoginLogic) Login(req *types.LoginReq) (*types.LoginReply, error) {
 	if len(strings.TrimSpace(req.Username)) == 0 || len(strings.TrimSpace(req.Password)) == 0 {
-		return nil, errors.New("参数错误")
+		return nil, errors.New("参数错误2 234123")
 	}
-	logx.Error("失败日志")
-	logx.Error("日志详情")
 	userInfo, err := l.svcCtx.UserModel.FindOneByNumber(l.ctx, req.Username)
 	switch err {
 	case nil:
 	case model.ErrNotFound:
-		return nil, errors.New("用户名不存在")
+		return nil, errors.New("用户名不存在1")
 	default:
 		return nil, err
 	}
-
 	if userInfo.Password != req.Password {
 		return nil, errors.New("用户密码不正确")
 	}
-
 	// ---start---
 	now := time.Now().Unix()
 	accessExpire := l.svcCtx.Config.Auth.AccessExpire
