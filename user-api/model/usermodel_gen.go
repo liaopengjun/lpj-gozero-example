@@ -78,6 +78,7 @@ func (m *defaultUserModel) FindOne(ctx context.Context, id int64) (*User, error)
 	var resp User
 	err := m.QueryRowCtx(ctx, &resp, userIdKey, func(ctx context.Context, conn sqlx.SqlConn, v any) error {
 		query := fmt.Sprintf("select %s from %s where `id` = ? limit 1", userRows, m.table)
+		fmt.Println(query)
 		return conn.QueryRowCtx(ctx, v, query, id)
 	})
 	switch err {
