@@ -92,9 +92,23 @@ github.com/zeromicro/go-zero/rest/handler.(*timeoutHandler).ServeHTTP.func1
 runtime.goexit
 	/usr/local/go/src/runtime/asm_arm64.s:1263 
 	caller=logic/logerrlogic.go:28
+<<<<<<< HEAD
 {"@timestamp":"2023-04-13T11:53:38.854+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
 {"@timestamp":"2023-04-13T11:53:38.854+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
 {"@timestamp":"2023-04-13T11:53:38.868+08:00","caller":"sqlx/utils.go:140","content":"stmt: select `id`,`number`,`name`,`password`,`gender`,`create_time`,`update_time` from `user` where `number` = 'lpj' limit 1, error: Error 1054 (42S22): Unknown column 'number' in 'field list'","level":"error","span":"acf4a9c16cde8a85","trace":"ded404d2078676dd76253f4ccffac921"}
 {"@timestamp":"2023-04-13T11:54:00.516+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
 {"@timestamp":"2023-04-13T11:54:00.516+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
 {"@timestamp":"2023-04-13T11:54:00.516+08:00","caller":"sqlx/utils.go:140","content":"stmt: select `id`,`number`,`name`,`password`,`gender`,`create_time`,`update_time` from `user` where `number` = 'lpj' limit 1, error: Error 1054 (42S22): Unknown column 'number' in 'field list'","level":"error","span":"80aeb888d63c22ba","trace":"951f2f03dd73a29b31d3f931768f3604"}
+=======
+{"@timestamp":"2023-04-15T14:54:42.546+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T14:54:42.546+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+{"@timestamp":"2023-04-15T14:54:44.275+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T14:54:44.275+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+{"@timestamp":"2023-04-15T15:08:59.150+08:00","caller":"rest/server.go:304","content":"listen tcp 0.0.0.0:8881: bind: address already in use","level":"error"}
+{"@timestamp":"2023-04-15T15:09:35.396+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T15:09:35.396+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+{"@timestamp":"2023-04-15T15:09:52.244+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T15:09:52.244+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+{"@timestamp":"2023-04-15T15:10:49.640+08:00","caller":"logic/loginlogic.go:35","content":"失败日志","level":"error"}
+{"@timestamp":"2023-04-15T15:10:49.640+08:00","caller":"logic/loginlogic.go:36","content":"日志详情","level":"error"}
+>>>>>>> origin/main
