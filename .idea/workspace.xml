@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700b38c8-27f2-4db5-a69b-b0245f6d4937" name="变更" comment="1">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_4_20_18_16___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_4_20_18_16___.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lpj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lpj.txt" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/lpj2.txt" beforeDir="false" />
+>>>>>>> feature1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +66,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Go Build.go build go-zero-demo/search/api">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-zero-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+=======
   <component name="RunManager" selected="Go 构建.go build go-zero-demo/search/api">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-zero-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="go-zero-demo" />
+>>>>>>> feature1
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
@@ -93,12 +107,27 @@
       <module name="go-zero-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
+<<<<<<< HEAD
+=======
       <package value="go-zero-demo" />
+>>>>>>> feature1
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build go-zero-demo/user-api/api" />
+        <item itemvalue="Go Build.go build go-zero-demo/search/api" />
+        <item itemvalue="Go Build.go build go-zero-demo/user-api/api" />
+        <item itemvalue="Go Build.go build go-zero-demo/search/api" />
+        <item itemvalue="Go Build.go build go-zero-demo/user-api/api" />
+      </list>
+    </recent_temporary>
+=======
+>>>>>>> feature1
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
