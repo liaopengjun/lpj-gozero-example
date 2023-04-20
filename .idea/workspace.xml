@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b38c8-27f2-4db5-a69b-b0245f6d4937" name="变更" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lpj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lpj.txt" afterDir="false" />
-    </list>
+    <list default="true" id="700b38c8-27f2-4db5-a69b-b0245f6d4937" name="变更" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
